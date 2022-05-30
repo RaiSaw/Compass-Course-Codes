@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+    background: radial-gradient(ellipse at top, #F9CEEE, #CCF3EE,#F9F3EE,TRANSPARENT), radial-gradient(ellipse at bottom,#4700D8,#9900F0, #FF85B3, transparent);
+    -webkit-animation: prettyNiceBG 8s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+@-webkit-keyframes prettyNiceBG {
+    0%{background-position: 0 50%}
+    50%{background-position: 100% 100%}
+    100%{background-position: 0 50%}
+    
+}
+.castleImage{
+    width: 25vw;
+
+}

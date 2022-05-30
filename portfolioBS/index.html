@@ -1,0 +1,457 @@
+<!--Author: Othman Adi [11.04.2022]-->
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Bootstrap 5 Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<head></head>
+<body>
+<!--Nav bar here-->
+<nav class="navbar navbar-expand- fixed-top navbarScroll">
+    <div class="container">
+        <a class="navbar-brand" href="#">SKETCHWORLD</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-label="Toggle navigation" aria-expanded="false"
+            aria-controls="navbarSupportedContent">
+        <p>🎨</p>
+    </button>
+    <!--    HOMEWORK PART 2-->
+    <!--     Please code the rest of the Navbar using the following code-->
+    <!--    [https://gist.github.com/OthmanAdi/2f2adb824168419c4a5ae79f1301266c]-->
+    <!--    *******-->
+    <!--Your homework code should remain in the nav-->
+    <!--    Your code begins here-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+                <!--                The # means that we are creating an InnerLink that forward to a Section with a Matching ID.-->
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+
+    </div> <!--End of the Navbar-collapse-->
+</nav>
+<!--End of Navbar-->
+<!---->
+<!---->
+<!--Main Banner-->
+<section class="bgimage" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hello world, im a Developer / programmer / UI-UX Designer and Blogger</h2>
+                <p class="hero_desc">
+                    And my name is ADI, im looking to collab on open source projects
+                    and learn new technologies that power that web
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of Main Banner-->
+<!--Section 1-->
+<!--About-->
+<section class="" id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">Skills and Certificates</h1>
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="https://joeschmoe.io/api/v1/jane" alt="portrait image for developer of this page"
+                     class="imageAboutPage"/>
+            </div> <!--end of columns-->
+        </div> <!--end of row-->
+
+        <div class="col-lg-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Current Skills to Master:</li>
+                        <li>Web Development and UX Design</li>
+                    </ul>
+                </div> <!--end of column-->
+                <!--                -->
+                <div class="col-md-6">
+                    <ul>
+                        <li>Skills i mastered:</li>
+                        <li>Html & Css</li>
+                    </ul>
+                </div> <!--end of column-->
+            </div> <!--end of Row-->
+
+            <div class="row mt-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </div> <!--info about me column-->
+    </div> <!--end of container-->
+</section>
+<!--End of About-->
+<!--Section 2-->
+<!--Services-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Website Design</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Website Deployment</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">SEO</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">DevOps</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">QA</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--end of Services-->
+<!--Section 3-->
+<!--Portfolio-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">YouTube Clone</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Landing Page</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Messaging Service</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Twitter Clone</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+<!--End of Portfolio-->
+<!--Section 4-->
+<!--Contact-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!--End of Contact-->
+<!--Footer-->
+<!--Beginning of the Snippet-->
+<section class="bg-dark text-light">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="lc-block mb-4">
+                    <img class="img-fluid" alt="logo"
+                         src="https://cdn.livecanvas.com/media/svg/undraw-sample/undraw_connected_world_wuay.svg"
+                         style="max-height:10vh">
+                </div>
+                <div class="lc-block small">
+                    <div editable="rich">
+                        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper matti pibus leo.</p>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+                <div class="lc-block py-2">
+                    <a class="text-decoration-none" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="1em" height="1em"
+                             lc-helper="svg-icon" fill="var(--bs-light)">
+                            <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                        </svg>
+                    </a>
+                    <a class="text-decoration-none" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em"
+                             lc-helper="svg-icon" fill="var(--bs-light)">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                        </svg>
+                    </a>
+                    <a class="text-decoration-none" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em"
+                             lc-helper="svg-icon" fill="var(--bs-light)">
+                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                        </svg>
+                    </a>
+                    <a class="text-decoration-none" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em"
+                             lc-helper="svg-icon" fill="var(--bs-light)">
+                            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                        </svg>
+                    </a>
+                    <a class="text-decoration-none" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em"
+                             lc-helper="svg-icon" fill="var(--bs-light)">
+                            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h4>Get Started</h4>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+                <div class="lc-block small">
+                    <div editable="rich">
+                        <p>Tutorial</p>
+                        <p>Resources
+                            <br>
+                        </p>
+                        <p>Docs</p>
+                        <p>Example</p>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h4>About us</h4>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+                <div class="lc-block small">
+                    <div editable="rich">
+                        <p>Story</p>
+                        <p>Work with us</p>
+                        <p>Blog</p>
+                        <p>News</p>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+            </div>
+            <div class="col-lg-2 offset-lg-1">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h4>Downloads</h4>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+                <div class="lc-block small">
+                    <div editable="rich">
+                        <p>Vertex 1.2</p>
+                        <p>Templates</p>
+                        <p>Sounds</p>
+                        <p>Gradients</p>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+            </div>
+        </div>
+    </div>
+    <div class="py-5 container">
+        <div class="row">
+            <div class="col-6 small">
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p>Copyright © My Company 2020</p>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+            </div>
+            <div class="col-6 text-end small">
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p>
+                            <a class="text-decoration-none" href="#">License Details</a> -
+                            <a class="text-decoration-none" href="#">Terms &amp; Conditions</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- /lc-block -->
+            </div>
+        </div>
+    </div>
+</section>
+<!--End of the Snippet-->
+<!--End of Footer-->
+
+<!--SCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

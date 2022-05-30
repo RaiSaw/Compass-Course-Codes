@@ -1,0 +1,15 @@
+*{
+    padding:0 ;
+    margin:0 ;
+}
+/*Variable house*/
+:root{ /*embedded in the file*/
+    --poki1: rgba(180, 253, 255, 1);
+    --poki2: rgba(27, 0, 147, 0.81);
+    --raphwish: 34deg;
+}
+
+#ColorMe{
+    height: 100vh;
+    background: linear-gradient(to bottom,var(--raphwish),var(--poki1),var(--poki2));
+}

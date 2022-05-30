@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    padding: 100vh 60vh;
+    background: lightseagreen;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#Timer{
+    font-size: 3em;
+    font-weight: 100;
+    color: darkred;
+    padding: 20px;
+    width: 700vw;
+
+}
+#Timer div{
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: green;
+    border-radius: 10px;
+    border: 2px;
+    margin: 15px;
+}
+#Timer div span {
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+    font-size: .35em;
+    font-weight: 400;
+}

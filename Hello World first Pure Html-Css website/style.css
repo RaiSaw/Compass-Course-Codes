@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');*{ /* <==Selector*/
+    margin: 0; /*<== Properties aka.Superpowers*/
+    padding: 0; /*<== Properties aka.Superpowers*/
+    font-family: 'Frijole', cursive;
+}
+
+ .mainContainer\" {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+     height: 100vh;
+ }
+.item{
+    color: orange;
+}
+.item.head{
+    grid-column: 1/ span 12;
+    grid-row: 1/ span 1;
+    background-color: indigo;
+}
+
+.item.nav{
+    grid-column: 1/ span 12;
+    grid-row: 2/ span 1;
+    background-color: cornflowerblue;
+}
+.item.foo{
+    grid-column: 1/ span 12;
+    grid-row: 12/ span 1;
+    background-color: midnightblue;
+}
+.item.simu{
+    grid-column: 1 / span 2;
+    grid-row:3 / span 9;
+    background-color: lightcoral;
+}
+.item.ads{
+    grid-column: 11 / span 2;
+    grid-row:3 /span 9;
+    background-color: forestgreen;
+}
+.item.main{
+    grid-column:3  / span 8;
+    grid-row:3 /span 9;
+    background-color: turquoise;
+}
