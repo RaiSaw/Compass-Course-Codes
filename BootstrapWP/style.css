@@ -1,0 +1,129 @@
+/*Styling the body*/
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Hind:wght@300&family=Macondo+Swash+Caps&display=swap');body{
+    display: block;
+    overflow-x: hidden;
+    font-family: 'Hind', sans-serif;
+    background-color: #E1F5F2;
+}
+
+h2, h5, nav {
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    font-family: 'Griffy', cursive;
+}
+
+nav ul li a {
+    font-size: 22px;
+    color: #390050;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: #683aa4;
+}
+
+/*Styling for Hero Section*/
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Griffy', cursive;
+}
+
+section p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+h2 {
+    border-radius: 0 !important;
+    max-width: 45%;
+    text-align: center;
+
+    --d: 14px;
+
+    padding: 8px 8px calc(8px + var(--d)) 8px;
+    background: linear-gradient(rgba(255, 255, 255, 0.4) 0 0) bottom/100% var(--d) no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--d)), calc(100% - 3px) calc(100% - var(--d)), 3px calc(100% - var(--d)), 0 calc(100% - var(--d)));
+    transform: perspective(1000px) rotateX(0deg);
+    transition: 0.4s, color 0.4s 0.4s, background-color 0.4s 0.4s;
+}
+
+h2:hover {
+    background-color: #390050;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--d)), calc(100% - 3px) 100%, 3px 100%, 0 calc(100% - var(--d)));
+    transform: perspective(1000px) rotateX(40deg);
+    transition: 0.4s, clip-path 0.4s 0.4s, transform 0.4s 0.4s;
+}
+
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img {
+    max-width: 130% !important;
+    width: 130%;
+}
+
+/*Styling for the cards*/
+#hero .card {
+    box-shadow: 11px 7px 16px #390050;
+    border: 0;
+    text-align: center;
+}
+
+#hero .cards .card {
+    width: 18rem;
+}
+
+/*Styling for Icons if + */
+#hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/*Styling for the Project Section*/
+#projects .projects {
+    margin-bottom: 50px;
+}
+
+/*Styling contact section*/
+#contact {
+    text-align: center;
+    background-color: #390050;
+    color: #E1F5F2;
+}
+
+#contact h1 {
+    text-align: center;
+    color: white;
+}
